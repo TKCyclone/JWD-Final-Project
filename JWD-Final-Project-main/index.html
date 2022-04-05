@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+
+    <!--nav bar-->
+  
     <div id="nav" class="container">
         <div class="row">
             <div class="col">
@@ -43,17 +46,23 @@
                     </nav>
                   </div>
             </div>
+
         </div>
     </div> 
-    <div class="row"> 
-      <div class="justify-content-md-center">
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search..." aria-label="Search" style="width: 1506px;">
-            <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
-          </form>
+<!--navbar end-->
 
-    </div>
-      </div>
+  <!--search bar-->
+  <div class="container">
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+  </div>
+<!--search bar end-->
+
+<!--Form-->
     <div class="container">
       <form>
         <div class="form-group">
@@ -82,14 +91,28 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
-    <div class="row">
-      <div class="col">
-        <h2>Tasks</h2>
-        <ul class="list-group" id="tasksList">
-        </ul>
-      </div>
-      <div class="col"></div>
     </div>
+    <br>
+    <!--form end-->
+
+    <!--jumbotron-->
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">My Tasks</h1>
+      <p class="lead">This is my task</p>
+      <hr class="my-4">
+
+  <div class="card">
+     <h5 class="card-header">Task 1</h5>
+    <div class="card-body">
+      <h5 class="card-title">Finish Final Project</h5>
+      <p class="card-text">Code final project with group</p>
+      <a href="#" class="btn btn-primary">Finalize Task</a>
+    </div>
+  </div>
+    </div>
+  </div>
+    <!--jumbotron end-->
         
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
