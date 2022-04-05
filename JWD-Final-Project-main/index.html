@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Task List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!--nav bar-->
+  
+    <div id="nav" class="container">
+        <div class="row">
+            <div class="col">
+                <div class="pos-f-t">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                      <div class="bg-dark p-4">
+                        <h4 class="text-white"><a>Nav</a></h4>
+                        <span class="text-muted">
+                            <ul class="nav flex-column">
+                             <li class="nav-item">
+                                 <a class="nav-link active" href="#">Tasks</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link active" href="#">In Progress</a>
+                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Completed</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Archived</a>
+                            </li>
+                            </ul>
+                        </span>
+                      </div>
+                    </div>
+
+                    <nav class="navbar navbar-dark bg-dark">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </nav>
+                  </div>
+            </div>
+
+        </div>
+    </div> 
+<!--navbar end-->
+
+  <!--search bar-->
+  <div class="container">
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+  </div>
+<!--search bar end-->
+
+<!--Form-->
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <h1>Task Form</h1>
+          <label for="inputName">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Name Here">
+        </div>
+        <div class="form-group">
+          <label for="inputDescription">Description</label>
+          <input type="text" class="form-control" id="inputDescription" placeholder="Description">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputAssigned">Assigned</label>
+            <input type="text" class="form-control" id="inputAssigned">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputDue">Due</label>
+            <input type="date" id="inputDue" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    </div>
+    <br>
+    <!--form end-->
+
+    <!--jumbotron-->
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">My Tasks</h1>
+      <p class="lead">This is my task</p>
+      <hr class="my-4">
+
+  <div class="card">
+     <h5 class="card-header">Task 1</h5>
+    <div class="card-body">
+      <h5 class="card-title">Finish Final Project</h5>
+      <p class="card-text">Code final project with group</p>
+      <a href="#" class="btn btn-primary">Finalize Task</a>
+    </div>
+  </div>
+    </div>
+  </div>
+    <!--jumbotron end-->
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
